@@ -21,6 +21,7 @@ def test_parsing():
 
     # print(pages[0].page_content)
 
+    #Testing the splitting of the text into the 800 char sized chunks
     chunks = parser.split_text(pages)
     assert len(chunks) > 0, "Chunks is empty"
     print("Chunks is not empty, split successfully")

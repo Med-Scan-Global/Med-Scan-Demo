@@ -1,6 +1,6 @@
 from langchain.schema.document import Document
 from langchain_community.vectorstores import Chroma
-
+from model_prompting.embeddings import get_embedding_function
 
 class VectorDatabase:
     def __init__(self, define_path: str):
